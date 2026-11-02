@@ -112,6 +112,7 @@ def preprocess_audio(audio_file):
     return spec.astype(np.float32)[..., np.newaxis]
 
 # TAMPILAN APLIKASI
+# TAMPILAN APLIKASI
 st.title("CNN Vehicle Sound Classification")
 
 st.write(
@@ -119,6 +120,13 @@ st.write(
     "model CNN Combo."
 )
 
+st.markdown(
+    "**Developed by Samuel Andrew 56975**"
+)
+
+st.caption(
+    "Undergraduate Thesis Project | 2026"
+)
 st.info(
     "Upload file audio WAV untuk melakukan klasifikasi kendaraan."
 )
